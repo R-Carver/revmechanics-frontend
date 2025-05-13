@@ -1,0 +1,85 @@
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}*/
+
+.logo {
+  display: contents;
+}
+
+.logo img {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo h1 {
+  font-family: "Londrina Solid", sans-serif;
+  color: #F34637;
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.top {
+  display: flex;
+  flex: 0 0 20%;
+  /*background-color: lightcoral;*/
+  /*border: 3px solid lightcoral;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  /*flex: 0 0 60%;*/
+  /*background-color: lightblue;*/
+  /*border: 3px solid lightblue;*/
+  height: 60%;
+  background-image: url('assets/circle_yellow.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 850px;
+  /*border: 1px solid darkred;*/
+}
+
+.course-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  display: flex;
+  flex: 0 0 20%;
+  /*background-color: lightgreen;*/
+  justify-content: center;
+  align-items: center;
+  font-family: "Londrina Solid", sans-serif;
+}
